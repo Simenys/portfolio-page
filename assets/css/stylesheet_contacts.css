@@ -1,0 +1,119 @@
+
+body {
+  background-color: #808080;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+/* NAVBAR START */
+nav {
+  background-color: white;
+}
+nav div {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.right-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  margin: -50px;
+  /* padding-left: 25vw; */
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Oswald, Helvetica, sans-serif;
+}
+.right-navabr {
+  right: initial;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-family: Oswald, Helvetica, sans-serif;
+  /* padding-right: 25vw; */
+}
+#first, #second {
+  padding-right: 15px;
+}
+a {
+  text-decoration: none;
+  color: #808080;
+}
+/* NAVBAR END */
+/* SHORT INTRO START */
+.main-text {
+  padding-top: 10vh;
+  height: 300px;
+  text-align: center;
+  font-family: Oswald, Helvetica, sans-serif;
+}
+#linkedin-logo {
+  background-color: white;
+}
+
+.main-text > .p-text {
+  padding-top: 100px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Oswald, Helvetica, sans-serif;
+  /* padding-left: 25vw;
+  padding-right: 25vw; */
+  color: white;
+}
+/* SHORT INTRO END */
+/* STAR RATING START */
+.stars {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  /* padding-left: 25vw;
+  padding-right: 25vw; */
+  margin-bottom: 125px;
+}
+.stars-rating {
+  background-color: white;
+  height: 250px;
+  width: 200px;
+  border-radius: 2px;
+}
+.stars-rating p {
+  padding-top: 30px;
+  color: #808080;
+  font-family: Inter, Helvetica, sans-serif;
+}
+/*STAR RATING END */
+/* START FOOTER */
+footer {
+  background-color: #E5E7E9;
+  width: 100%;
+  text-align: center;
+}
+footer div {
+  /*text-align: center;*/
+  height: 314px;
+  width: 100%;
+}
+footer small {
+  list-style: none;
+  cursor: pointer;
+  /* text-decoration: underline; */
+  font-family: Oswald, Helvetica, sans-serif;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*padding: 10px 0;*/
+}
+/* END FOOTER */
