@@ -55,11 +55,14 @@ a {
   text-align: center;
   font-family: Oswald, Helvetica, sans-serif;
 }
-#linkedin-logo {
-  background-color: white;
+.main-text > .link-github{
+  color: white;
 }
-
-.main-text > .p-text {
+.link-github {
+  text-decoration: underline;
+  color: white;
+}
+.p-text {
   padding-top: 100px;
   width: 1000px;
   margin: 0 auto;
