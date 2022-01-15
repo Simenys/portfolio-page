@@ -20,7 +20,7 @@ nav div {
   justify-content: center;
   align-items: center;
 }
-img {
+#cat-logo {
   margin: -50px;
   /* padding-left: 25vw; */
 }
@@ -55,22 +55,29 @@ a {
   text-align: center;
   font-family: Oswald, Helvetica, sans-serif;
 }
-.main-text > .link-github{
-  color: white;
-}
 .link-github {
   text-decoration: underline;
   color: white;
 }
 .p-text {
-  padding-top: 100px;
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
   font-family: Oswald, Helvetica, sans-serif;
   /* padding-left: 25vw;
   padding-right: 25vw; */
   color: white;
+}
+.contacts-logo {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#github-logo {
+  background-color: white;
+  border-radius: 10%;
+}
+#contact-name, #contact-email {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
 }
 /* SHORT INTRO END */
 /* STAR RATING START */

@@ -15,7 +15,7 @@
       <div class="">
         <!-- LOGO ON LEFT SIDE -->
         <span class="left-navbar">
-          <a href="index.html"><img  src="assets/icons/cat.svg" height="200px" width="200px"></a>
+          <a href="index.html"><img id="cat-logo" src="assets/icons/cat.svg" height="200px" width="200px"></a>
         </span>
         <!-- MENU ON RIGHT SIDE -->
         <span class="right-navbar">
@@ -29,10 +29,17 @@
     </nav>
     <!-- END OF NAVBAR -->
     <div class="main-text">
-      <span><a class="linkedin-logo" href="https://www.linkedin.com/in/simonas-žilevičius-61a006a9" target="_blank"><img  src="assets/icons/linkedin2.png" height="50px" alt=""></a></span>
+      <span class="contacts-logo" ><a href="https://www.linkedin.com/in/simonas-žilevičius-61a006a9" target="_blank"><img src="assets/icons/linkedin2.png" height="50px" alt=""></a></span>
+      <span class="contacts-logo" ><a href="https://github.com/Simenys" target="_blank"><img id="github-logo" src="assets/icons/github.png" height="50px" alt=""></a></span>
       <p class="p-text">
         Contact me!
       </p>
+      <form class="contact-form" action="mail.php" method="post">
+        <div class="contact-field" id="contact-name"><p class="p-text">Name</p> <input type="text" name="name" value="" height="5"></div>
+        <div class="contact-field" id="contact-email"><p class="p-text">Email</p> <input type="email" name="email" value=""></div>
+        <div class="contact-field" id="contact-message"><p>Message</p> <textarea name="message" rows="6" cols="40" placeholder="Enter your message..."></textarea> </div>
+        <input type="submit" value="Send"><input type="reset" name="" value="Clear">
+      </form>
     </div>
     <!-- TO INCLUDE STAR RATINGS ON EACH LANGUAGE -->
     <div class="stars">

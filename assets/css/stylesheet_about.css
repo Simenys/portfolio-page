@@ -52,24 +52,22 @@ a {
 .main-text {
   padding-top: 10vh;
   height: 300px;
+  text-align: center;
+  font-family: Oswald, Helvetica, sans-serif;
 }
-.main-text > .p-text {
-
+.link-github {
+  text-decoration: underline;
+  color: white;
+}
+.p-text {
+  padding-top: 10px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
   font-family: Oswald, Helvetica, sans-serif;
   /* padding-left: 25vw;
   padding-right: 25vw; */
   color: white;
-}
-.p-text-allign {
-  text-align: center;
-  width: 1000px;
-  margin: 0 auto;
-}
-#author {
-  text-align: right;
-  padding-bottom: 40px;
-  padding-right: 550px;
-  margin-top: -20px;
 }
 /* SHORT INTRO END */
 /* STAR RATING START */
@@ -81,7 +79,7 @@ a {
   margin: 0 auto;
   /* padding-left: 25vw;
   padding-right: 25vw; */
-  margin-bottom: -125px;
+  margin-bottom: 125px;
 }
 .stars-rating {
   background-color: white;
