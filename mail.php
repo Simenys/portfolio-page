@@ -12,22 +12,26 @@
   </head>
   <body>
     <?php
-        /* SMTP server name, port, user/passwd */
-        $smtpinfo["host"] = "ssl://smtp.gmail.com";
-        $smtpinfo["port"] = "465";
-        $smtpinfo["auth"] = true;
-        $smtpinfo["username"] = "s.zilevicius@gmail.com";  
-        $smtpinfo["password"] = "abcdefg";
+      	  // ini_set('SMTP','smtp.gmail.com');
+          // ini_set('smtp_port',465);
+          // ini_set('sendmail_from','s.zilevicius@gmail.com');
 
           $name = $_POST['name'];
           $email = $_POST['email'];
           $message = $_POST['message'];
           $formcontent = "From: $name \n Message: $message";
           $recipient = "s.zilevicius@gmail.com";
-          $subject = "Contact from";
+          $subject = "Contact form";
           $mailheader = "From: $email \r\n";
-          mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-          echo "Thank you";
+
+          if (mail($recipient, $subject, $formcontent, $mailheader))
+          {
+            echo "Thank you";
+          }
+          else {
+              echo "Error!";
+          }
+
     ?>
 
     <!-- Optional JavaScript -->
